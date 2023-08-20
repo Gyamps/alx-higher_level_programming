@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import random
-number = 8024
+number = random.randint(-10000, 10000)
 
 if number < 0:
     remainder = number % (-10)
